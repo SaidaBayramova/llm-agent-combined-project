@@ -1,10 +1,10 @@
-# 🤖 LLM Müştəri Dəstək Agent-i — Tam Data-Driven Layihə
+# LLM Müştəri Dəstək Agent-i — Tam Data-Driven Layihə
 
 LLM Agent + Tool Calling konsepti (`check_order`, `create_ticket`, `search_faq`)
 üçün **2 real dataset** üzərində qurulmuş tam data-driven backend: EDA,
 5 ML modeli və 2-modullu interaktiv Streamlit dashboard.
 
-## 📊 Dataset-lər
+## Dataset-lər
 
 | Dataset | Ölçü | Agent Aləti | Mənbə |
 |---|---|---|---|
@@ -19,7 +19,7 @@ təsdiqlənmiş, mənalı statistik siqnal ehtiva edir:
 - Olist: gecikmə ↔ rəy balı korrelyasiyası **r ≈ -0.27**
 - Bitext: intent təsnifatı **99.5%** dəqiqlik (baseline 3.7%)
 
-## 📁 Qovluq strukturu
+## Qovluq strukturu
 
 ```
 project/
@@ -61,7 +61,7 @@ istifadə edilib, çünki hədəf dəyişənlər balanssızdır (gecikmə ~6.8%,
 pis rəy ~13.1%) — accuracy tək başına aldadıcı ola bilər. Bax notebook
 Bölmə 4 və dashboard-un "Model Performansı" tab-ı.
 
-## 1️⃣ Google Colab-da işə salmaq
+## 1. Google Colab-da işə salmaq
 
 1. `notebook/llm_agent_combined_final_project.ipynb` faylını Colab-a yükləyin.
 2. **Olist hissəsi üçün:** `data/olist/` qovluğundakı 8 CSV faylını Colab-a
@@ -71,7 +71,7 @@ Bölmə 4 və dashboard-un "Model Performansı" tab-ı.
 4. Bütün hüceyrələri ardıcıl işə salın (`Runtime → Run all`).
 5. Notebook sonunda bütün 6 model `models/` qovluğuna saxlanılır.
 
-## 2️⃣ Streamlit Dashboard-u lokal işə salmaq
+## 2. Streamlit Dashboard-u lokal işə salmaq
 
 ```bash
 cd streamlit_app
